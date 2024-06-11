@@ -1,0 +1,220 @@
+// $color1: #ffa200;
+// $color2: #6eda78;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to right, #6eda78, #ffa200);
+  padding: 30px;
+}
+
+///-------------------Navbar Section----------
+.containerNav {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+}
+
+///-------------------Home Section----------
+.containerHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 15px;
+}
+
+.items {
+  width: 300px;
+  padding: 20px;
+  border-bottom: 1px solid rgb(168, 166, 166);
+  background: white;
+}
+
+///-------------------Test1 Section----------///
+
+.containerTest1Content {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+///----ShapeButtons Component
+.containerShapeButtons {
+  width: 100%;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgb(168, 166, 166);
+}
+
+.shape-buttons {
+  width: 250px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .banner {
+    position: absolute;
+    bottom: -11px;
+    background-color: #6eda78;
+    color: white;
+    //  border: 0.3px solid  rgb(168, 166, 166);
+    border-radius: 20px;
+    padding: 0 10px;
+  }
+
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-right: 90px solid #555;
+    border-bottom: 45px solid transparent;
+  }
+
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-left: 90px solid #555;
+    border-bottom: 45px solid transparent;
+  }
+
+  .square {
+    height: 80px;
+    width: 80px;
+    background-color: #555;
+  }
+
+  .circle {
+    height: 80px;
+    width: 80px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+  .oval {
+    height: 80px;
+    width: 180px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+  .trapezoid {
+    border-bottom: 80px solid #555;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 220px;
+  }
+  .rectangle {
+    height: 80px;
+    width: 200px;
+    background-color: #555;
+  }
+  .parallelogram {
+    width: 200px;
+    height: 80px;
+    transform: skew(20deg);
+    background: #555;
+  }
+
+  &.big {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-top: 90px solid #555;
+    }
+    .triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+      border-bottom: 90px solid #555;
+    }
+  }
+
+  &:hover {
+    background-color: #ffa200 !important;
+    border: none !important;
+
+    .square {
+      background-color: #ffffff;
+    }
+    .circle {
+      background-color: #ffffff;
+    }
+    .oval {
+      background-color: #ffffff;
+    }
+    .trapezoid {
+      border-bottom: 80px solid #ffffff;
+    }
+    .rectangle {
+      background-color: #ffffff;
+    }
+    .parallelogram {
+      background: #ffffff;
+    }
+  }
+}
+
+///----ShapeContent Component
+.containerShapeContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+///-------------------Test2 Section----------///
+
+.containerForm {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+
+  .CitizenIDForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .span {
+    padding-right: 10px;
+  }
+}
+
+.containerTable {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px;
+
+  .manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

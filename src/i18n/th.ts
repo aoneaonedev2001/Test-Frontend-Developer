@@ -1,0 +1,60 @@
+const translations = {
+  home: {
+    contentSet1: {
+      content1: "เเบบทดสอบที่ 1",
+      content2: "การจัดการหน้าเว็บ",
+      content3: "หน้าหลัก",
+    },
+    contentSet2: {
+      content1: "เเบบทดสอบที่ 2",
+      content2: "การจัดการหน้าฟอร์ม",
+    },
+  },
+  test1: {
+    content1: "การจัดการหน้าเว็บ",
+    content2: "เลื่อนรูปเเบบ",
+    content3: "เปลี่ยนตำเเหน่ง",
+    content4: "เลื่อนรูปเเบบ",
+  },
+  test2: {
+    contentSet1: {
+      content1: "การจัดการหน้าฟอร์ม",
+    },
+    contentSet2: {
+      content1: "คำนำหน้า",
+      content2: "ชื่อจริง",
+      content3: "นามสกุล",
+      content4: "วันเกิด",
+      content5: "เดือน/วัน/ปี",
+      content6: "-- กรุณาเลือก --",
+      content7: "เลขบัตรประชาชน",
+      content8: "เพศ",
+      content9: "ผู้ชาย",
+      content10: "ผู้หญิง",
+      content11: "ไม่ระบุ",
+      content12: "หมายเลขโทรศัพท์มือถือ",
+      content14: "หนังสือเดินทาง",
+      content15: "เงินเดือนที่คาดหวัง",
+      content16: "ล้างข้อมูล",
+      content17: "ส่งข้อมูล",
+      content19: "เลือกทั้งหมด",
+      content20: "ลบข้อมูล",
+      content21: "ชื่อ",
+      content22: "เพศ",
+      content25: "ไทย",
+      content26: "ฝรั่งเศส",
+      content27: "อเมริกา",
+      content28: "จัดการ",
+      content29: "เเก้ไขข้อมูล",
+      content30: "ลบข้อมูล",
+      content31: "ก่อนหน้า",
+      content32: "ถัดไป",
+      content33: "นาย",
+      content34: "นาง",
+      content35: "นางสาว",
+      content36: "สัญชาติ",
+    },
+  },
+};
+
+export default translations;
